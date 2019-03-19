@@ -1,0 +1,22 @@
+{
+  "name": "webcomponent",
+  "version": "1.0.0",
+  "description": "jsdoc",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "jsdoc": "jsdoc -c ./conf.json",
+    "start": "ts-node"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jsdoc": "^3.5.5",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.1.6"
+  },
+  "dependencies": {
+    "fortune-lib": "https://yuanyu90221@gitlab.com/fortune-door/fortune-lib.git#v1.0.12",
+    "moment": "^2.22.2"
+  }
+}

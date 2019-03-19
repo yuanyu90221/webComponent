@@ -1,0 +1,23 @@
+{
+  "tags": {
+      "allowUnknownTags": true,
+      "dictionaries": ["jsdoc"]
+  },
+  "source": {
+      "include": [ "lib/" ],
+      "exclude": [ "node_modules/" ],
+      "includePattern": ".+\\.js(doc)?$",
+      "excludePattern": "(^|\\/|\\\\)_"
+  },
+  "plugins": [
+      "plugins/markdown"
+  ],
+  "templates": {
+      "cleverLinks": false,
+      "monospaceLinks": false
+  },
+  "opts": {
+      "encoding": "utf8",               // same as -e utf8
+      "destination": "./doc/"          // same as -d ./out/
+  }
+}
