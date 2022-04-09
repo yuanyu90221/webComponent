@@ -17,6 +17,6 @@
   },
   "dependencies": {
     "fortune-lib": "https://yuanyu90221@gitlab.com/fortune-door/fortune-lib.git#v1.0.12",
-    "moment": "^2.22.2"
+    "moment": "^2.29.2"
   }
 }
